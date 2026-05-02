@@ -1,0 +1,110 @@
+export const beers = [
+  {
+    id: "doppelbock",
+    name: "Doppelbock",
+    icon: "⚫",
+    type: "Cerveza individual",
+    style: "Doppelbock",
+    profile: "Oscura · Maltosa · Intensa",
+    bitterness: "Amargor suave",
+    cantidad: "500ml",
+    serving: "Servir entre 8° y 12°",
+    pairing: "Ideal para carnes, quesos fuertes y noches frías.",
+    image: "/images/doppelbock.png",
+    description:
+      "Oscura, intensa y con cuerpo. Tiene un sabor profundo, maltoso y una presencia fuerte sin volverse agresiva.",
+  },
+  {
+    id: "honey-beer",
+    name: "Honey Beer",
+    icon: "🍯",
+    type: "Cerveza individual",
+    style: "Honey Beer",
+    profile: "Suave · Aromática · Dulce",
+    bitterness: "Amargor bajo",
+    cantidad: "500ml",
+    serving: "Servir entre 6° y 8°",
+    pairing: "Ideal para picadas, pollo, pizzas y comidas suaves.",
+    image: "/images/honeybeer.png",
+    description:
+      "Suave, aromática y con un toque de miel. Es fácil de tomar, equilibrada y perfecta para compartir.",
+  },
+  {
+    id: "ipa",
+    name: "IPA",
+    icon: "🌿",
+    type: "Cerveza individual",
+    style: "India Pale Ale",
+    profile: "Lupulada · Cítrica · Intensa",
+    bitterness: "Amargor marcado",
+    cantidad: "500ml",
+    serving: "Servir entre 4° y 6°",
+    pairing: "Ideal para hamburguesas, fritos, picantes y carnes.",
+    image: "/images/ipa.png",
+    description:
+      "Fresca, aromática y con carácter. Tiene notas cítricas, buen aroma a lúpulo y un amargor protagonista.",
+  },
+  {
+    id: "pilsen",
+    name: "Pilsen",
+    icon: "🍺",
+    type: "Cerveza individual",
+    style: "Pilsen",
+    profile: "Clara · Ligera · Refrescante",
+    bitterness: "Amargor suave",
+    cantidad: "500ml",
+    serving: "Servir entre 4° y 6°",
+    pairing: "Ideal para pizzas, empanadas, papas y reuniones.",
+    image: "/images/pilsen.png",
+    description:
+      "Clara, ligera y refrescante. Una cerveza simple de disfrutar, con final limpio y perfil amable.",
+  },
+  {
+    id: "roja",
+    name: "Roja",
+    icon: "🔴",
+    type: "Cerveza individual",
+    style: "Red Ale",
+    profile: "Maltosa · Equilibrada · Con cuerpo",
+    bitterness: "Amargor medio/suave",
+    cantidad: "500ml",
+    serving: "Servir cerca de 8°",
+    pairing: "Ideal para carnes, pizzas, picadas y comida casera.",
+    image: "/images/roja.png",
+    description:
+      "Equilibrada, maltosa y con buen cuerpo. Tiene un leve dulzor y mucho sabor sin exceso de amargor.",
+  },
+  {
+    id: "weissbier",
+    name: "Weissbier",
+    icon: "🌾",
+    type: "Cerveza individual",
+    style: "Cerveza de trigo",
+    profile: "Frutada · Suave · Refrescante",
+    bitterness: "Amargor muy bajo",
+    cantidad: "500ml",
+    serving: "Servir entre 5° y 8°",
+    pairing:
+      "Ideal para comidas livianas, ensaladas, pollo y tardes de verano.",
+    image: "/images/weissbier.png",
+    description:
+      "Cerveza de trigo, liviana y refrescante. Tiene textura suave, notas frutales y muy baja sensación amarga.",
+  },
+];
+
+export const packs = [
+  {
+    id: "pack-regalo",
+    name: "Pack para regalar",
+    type: "Pack",
+    badge: "Presentación premium",
+    image: "/images/packregalo.png",
+    description:
+      "Una presentación pensada para sorprender. Dos botellas de Viejo Munich en formato regalo, ideal para compartir, quedar bien en una juntada o hacer un detalle especial.",
+    includes: [
+      "2 Botellas de 500ml a elección",
+      "Presentación de regalo",
+      "Mensaje por WhatsApp",
+    ],
+  },
+];
