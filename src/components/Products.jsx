@@ -47,7 +47,7 @@ function Products({ onAddToCart }) {
                   className="w-full h-52 sm:h-64 object-cover transition duration-500 group-hover:scale-110"
                 />
               </div>
-              {beer.name === "Doppelbock" && (
+              {(beer.name === "Pilsen" || beer.name === "Roja") && (
                 <span className="absolute top-8 left-7 bg-amber-400 text-black px-5 py-2 rounded-full text-xs font-black shadow-lg z-10">
                   MÁS PEDIDA
                 </span>
