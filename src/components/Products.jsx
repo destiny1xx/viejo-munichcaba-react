@@ -21,8 +21,11 @@ function Products({ onAddToCart }) {
           Elegí tu estilo
         </h2>
         <p className="text-center text-white/65 max-w-2xl mx-auto leading-7 mb-10">
-          Sumá botellas al pedido y mandá el carrito por WhatsApp. Los precios,
-          stock y entrega se confirman al momento de coordinar.
+          Armá tu pedido 🍻
+          <span className="block">Mandalo por WhatsApp en un click.</span>
+          <span className="block">
+            Te confirmamos precio, stock y entrega al instante.
+          </span>
         </p>
 
         <div className="flex justify-center items-center gap-4 mb-14">

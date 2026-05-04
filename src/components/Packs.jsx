@@ -31,8 +31,9 @@ function Packs({ onAddToCart }) {
           </h2>
 
           <p className="text-white/70 text-base sm:text-lg leading-relaxed">
-            Si querés una opción más cuidada y lista para una ocasión especial,
-            este pack es la mejor forma de pedir Viejo Munich sin complicarte.
+            Una presentación elegante con 2 cervezas artesanales a elección
+            <br />
+            Ideal para un regalo distinto, con sabor a Villa General Belgrano.
           </p>
         </div>
 
@@ -100,7 +101,7 @@ function Packs({ onAddToCart }) {
                   rel="noopener noreferrer"
                   className="border border-green-500 text-green-400 px-7 py-4 rounded-full font-black hover:bg-green-500 hover:text-black hover:scale-105 active:scale-95 transition text-center"
                 >
-                  Consultar por WhatsApp
+                  Pedí ahora 🍺
                 </a>
               </div>
 

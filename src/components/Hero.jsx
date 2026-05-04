@@ -32,9 +32,8 @@ function Hero() {
           </h1>
 
           <p className="text-gray-200 text-lg leading-8 mb-9 max-w-xl">
-            Cerveza artesanal con esencia centro-europea, carácter patagónico y
-            entrega directa en CABA y Gran Buenos Aires. Elegí tus estilos, armá
-            el pedido y coordiná todo por WhatsApp.
+            La cerveza artesanal N°1 de Villa General Belgrano llego a CABA.
+            Elegí tus estilos y escribinos por WhatsApp.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-4xl">
@@ -63,7 +62,7 @@ function Hero() {
               rel="noopener noreferrer"
               className="w-full min-h-[58px] bg-green-500 text-black px-6 py-4 rounded-full font-bold hover:scale-105 transition shadow-lg hover:shadow-green-500/30 text-center flex items-center justify-center gap-2 whitespace-nowrap"
             >
-              💬 Pedir por WhatsApp
+              Pedí ahora 🍺
             </a>
           </div>
         </div>
@@ -74,13 +73,13 @@ function Hero() {
               Venta directa
             </p>
             <h3 className="text-3xl font-black mb-6">
-              Cerveza fría, artesanal y lista para compartir.
+              Viví el Oktoberfest todo el año en tu mesa.
             </h3>
 
             <div className="space-y-5 text-gray-300">
               <div>
                 <p className="text-white font-bold">📍 Zona</p>
-                <p className="text-sm">Pedidos en CABA y Gran Buenos Aires.</p>
+                <p className="text-sm">Entregas en CABA y Gran Buenos Aires.</p>
               </div>
 
               <div>
@@ -99,15 +98,6 @@ function Hero() {
             </div>
 
             <div className="w-full h-[2px] bg-amber-400 mt-7"></div>
-
-            <a
-              href={INSTAGRAM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex mt-6 text-sm text-white/70 hover:text-amber-400 transition"
-            >
-              📸 Ver Instagram
-            </a>
           </div>
         </div>
       </div>

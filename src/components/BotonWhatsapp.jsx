@@ -21,7 +21,7 @@ function BotonWhatsapp({ cartCount, onOpenCart }) {
         rel="noopener noreferrer"
         className="w-full sm:w-auto bg-green-500 text-black px-5 py-4 rounded-full font-black shadow-2xl hover:bg-green-400 transition hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
       >
-        💬 WhatsApp
+        💬 Dudas? Consultanos
       </a>
     </div>
   );

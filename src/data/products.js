@@ -101,10 +101,6 @@ export const packs = [
     image: "/images/packregalo.png",
     description:
       "Una presentación pensada para sorprender. Dos botellas de Viejo Munich en formato regalo, ideal para compartir, quedar bien en una juntada o hacer un detalle especial.",
-    includes: [
-      "2 Botellas de 500ml a elección",
-      "Presentación de regalo",
-      "Mensaje por WhatsApp",
-    ],
+    includes: ["2 Botellas de 500ml a elección", "Presentación de regalo"],
   },
 ];

@@ -19,9 +19,10 @@ function Delivery() {
             Coordinación directa en CABA y GBA
           </h2>
           <p className="text-gray-200 leading-8 mb-8">
-            La compra se confirma por WhatsApp para revisar stock, cantidad,
-            precio final y forma de entrega. Así evitás cobrar algo que después
-            no está disponible y mantenés el trato directo con el cliente.
+            Recibí cerveza artesanal de Villa General Belgrano directo en tu
+            casa.
+            <br />
+            Pedís fácil y coordinás todo por WhatsApp en minutos.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -50,7 +51,7 @@ function Delivery() {
           </h3>
           <p className="text-gray-300 leading-7 mb-6">
             La venta de bebidas alcohólicas está destinada exclusivamente a
-            mayores de edad. Al realizar tu pedido confirmás teber más de 18
+            mayores de edad. Al realizar tu pedido confirmás tener más de 18
             años.
           </p>
           <div className="border-t border-white/10 pt-6">

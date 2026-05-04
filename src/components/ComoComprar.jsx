@@ -21,7 +21,7 @@ function ComoComprar() {
     {
       number: "04",
       title: "Coordinamos entrega",
-      text: "Se confirma disponibilidad, precio final, zona de entrega o retiro y horario.",
+      text: "Rápido, directo y sin vueltas.",
       icon: "🚚",
     },
   ];
