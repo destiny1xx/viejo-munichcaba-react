@@ -1,4 +1,4 @@
-import { buildWhatsappUrl, INSTAGRAM_URL } from "../config/business";
+import { buildWhatsappUrl } from "../config/business";
 
 function Hero() {
   return (
