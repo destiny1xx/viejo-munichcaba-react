@@ -30,6 +30,21 @@ export const beers = [
       "Suave, aromática y con un toque de miel. Es fácil de tomar, equilibrada y perfecta para compartir.",
   },
   {
+    id: "roja",
+    name: "Roja",
+    icon: "🔴",
+    type: "Cerveza individual",
+    style: "Red Ale",
+    profile: "Maltosa · Equilibrada · Con cuerpo",
+    bitterness: "Amargor medio/suave",
+    cantidad: "500ml",
+    serving: "Servir cerca de 8°",
+    pairing: "Ideal para carnes, pizzas, picadas y comida casera.",
+    image: "/images/roja.png",
+    description:
+      "Equilibrada, maltosa y con buen cuerpo. Tiene un leve dulzor y mucho sabor sin exceso de amargor.",
+  },
+  {
     id: "ipa",
     name: "IPA",
     icon: "🌿",
@@ -58,21 +73,6 @@ export const beers = [
     image: "/images/pilsen.png",
     description:
       "Clara, ligera y refrescante. Una cerveza simple de disfrutar, con final limpio y perfil amable.",
-  },
-  {
-    id: "roja",
-    name: "Roja",
-    icon: "🔴",
-    type: "Cerveza individual",
-    style: "Red Ale",
-    profile: "Maltosa · Equilibrada · Con cuerpo",
-    bitterness: "Amargor medio/suave",
-    cantidad: "500ml",
-    serving: "Servir cerca de 8°",
-    pairing: "Ideal para carnes, pizzas, picadas y comida casera.",
-    image: "/images/roja.png",
-    description:
-      "Equilibrada, maltosa y con buen cuerpo. Tiene un leve dulzor y mucho sabor sin exceso de amargor.",
   },
   {
     id: "weissbier",
